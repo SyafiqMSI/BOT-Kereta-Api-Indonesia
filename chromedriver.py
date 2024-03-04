@@ -1,6 +1,6 @@
 from seleimp import *
 
-PATH = "chromedriver\chromedriver.exe"
+PATH = "/chromedriver/chromedriver.exe"
 chrome_options = Options()
 chrome_options.add_argument("--start-maximized") 
 chrome_options.add_argument("--disable-infobars") 
